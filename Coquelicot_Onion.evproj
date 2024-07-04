@@ -1,0 +1,2477 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project version="3.4.12">
+ <presentationParams>
+  <parameter name="enableStatistics" value="true"/>
+  <parameter name="flipFrames">
+   <field name="x" value="false"/>
+   <field name="y" value="false"/>
+  </parameter>
+  <parameter name="clipPlanes">
+   <field name="near" value="0.01"/>
+   <field name="far" value="10"/>
+  </parameter>
+  <parameter name="useMainCamera" value="true"/>
+  <parameter name="clearColor">
+   <field name="x" value="0.7"/>
+   <field name="y" value="0.7"/>
+   <field name="z" value="0.7"/>
+   <field name="w" value="1"/>
+  </parameter>
+ </presentationParams>
+ <resources dir="resources_Coquelicot_Onion">
+  <resource internal="false" id="661940d0-6b4-331-f13-b4d" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="Pacman.jpg">
+   <filename value="Pacman.jpg"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\models\Pacman.jpg"/>
+  </resource>
+  <resource internal="false" id="66194c16-851-fda-74f-515" kind="video" local="true" forceExport="false" rawAssetsExport="false" name="Y2mate.webm">
+   <filename value="Y2mate.webm"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\Y2mate.webm"/>
+  </resource>
+  <resource internal="false" id="66195845-84a-5ca-972-11c" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="skip.png">
+   <filename value="skip.png"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\skip.png"/>
+  </resource>
+  <resource internal="false" id="6619584b-fa9-227-cd6-fab" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="header.png">
+   <filename value="header.png"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\header.png"/>
+  </resource>
+  <resource internal="false" id="66195855-f83-92d-a33-494" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="ar.png">
+   <filename value="ar.png"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\ar.png"/>
+  </resource>
+  <resource internal="false" id="6619585a-1a7-8ca-3e3-962" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="instruction.png">
+   <filename value="instruction.png"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\instruction.png"/>
+  </resource>
+  <resource internal="false" id="66195b86-81f-2e7-d96-997" kind="audio" local="true" forceExport="false" rawAssetsExport="false" name="Y2mate.mx-Dead Space 2 _ Main Menu (audio-extractor.net).mp3">
+   <filename value="Y2mate.mx-Dead Space 2 _ Main Menu (audio-extractor.net).mp3"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\Y2mate.mx-Dead Space 2 _ Main Menu (audio-extractor.net).mp3"/>
+  </resource>
+  <resource internal="false" id="661a786e-f42-e5d-25c-1b1" kind="audio" local="true" forceExport="false" rawAssetsExport="false" name="Y2mate.mx - Dead Space 2 Title and Menu screen music (128 kbps) (1).mp3">
+   <filename value="Y2mate.mx - Dead Space 2 Title and Menu screen music (128 kbps) (1).mp3"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\Y2mate.mx - Dead Space 2 Title and Menu screen music (128 kbps) (1).mp3"/>
+  </resource>
+  <resource internal="false" id="661a7c12-916-755-13e-4df" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="sound-on.png">
+   <filename value="sound-on.png"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\sound-on.png"/>
+  </resource>
+  <resource internal="false" id="661a7c31-acd-8dc-bb1-6aa" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="sound-off.png">
+   <filename value="sound-off.png"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\sound-off.png"/>
+  </resource>
+  <resource internal="false" id="661a803b-6fe-8f8-955-524" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="Text-background.png">
+   <filename value="Text-background.png"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\Text-background.png"/>
+  </resource>
+  <resource internal="false" id="661a80ab-c2c-3b8-383-981" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="return.png">
+   <filename value="return.png"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\return.png"/>
+  </resource>
+  <resource internal="false" id="661b4e2f-3cd-c1f-872-d1f" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="off.png">
+   <filename value="off.png"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\off.png"/>
+  </resource>
+  <resource internal="false" id="661b51b1-1d7-7cc-143-a71" kind="model" local="true" forceExport="false" rawAssetsExport="false" name="jupiter.FBX">
+   <filename value="jupiter.FBX"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\planets\jupiter.FBX"/>
+  </resource>
+  <resource internal="false" id="661b5286-41e-526-42e-846" kind="model" local="true" forceExport="false" rawAssetsExport="false" name="moon.fbx">
+   <filename value="moon.fbx"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\planets\moon.fbx"/>
+  </resource>
+  <resource internal="false" id="661b52bc-83e-de2-cd4-69d" kind="model" local="true" forceExport="false" rawAssetsExport="false" name="mars.FBX">
+   <filename value="mars.FBX"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\planets\mars.FBX"/>
+  </resource>
+  <resource internal="false" id="661b5336-9a1-12e-653-797" kind="model" local="true" forceExport="false" rawAssetsExport="false" name="earth.FBX">
+   <filename value="earth.FBX"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\planets\earth.FBX"/>
+  </resource>
+  <resource internal="false" id="661b5394-df3-41f-6c8-d16" kind="model" local="true" forceExport="false" rawAssetsExport="false" name="mercury.FBX">
+   <filename value="mercury.FBX"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\planets\mercury.FBX"/>
+  </resource>
+  <resource internal="false" id="661b53db-2c4-16d-8f1-351" kind="model" local="true" forceExport="false" rawAssetsExport="false" name="neptune.FBX">
+   <filename value="neptune.FBX"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\planets\neptune.FBX"/>
+  </resource>
+  <resource internal="false" id="661b542b-e42-3e6-dea-a5b" kind="model" local="true" forceExport="false" rawAssetsExport="false" name="saturn.FBX">
+   <filename value="saturn.FBX"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\planets\saturn.FBX"/>
+  </resource>
+  <resource internal="false" id="661b56f8-f64-594-c33-1e1" kind="model" local="true" forceExport="false" rawAssetsExport="false" name="venus.FBX">
+   <filename value="venus.FBX"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\planets\venus.FBX"/>
+  </resource>
+  <resource internal="false" id="661b5726-c4c-47b-83d-e52" kind="model" local="true" forceExport="false" rawAssetsExport="false" name="uranus.FBX">
+   <filename value="uranus.FBX"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\planets\uranus.FBX"/>
+  </resource>
+  <resource internal="false" id="661b5764-5ed-595-886-7be" kind="model" local="true" forceExport="false" rawAssetsExport="false" name="sun.FBX">
+   <filename value="sun.FBX"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\planets\sun.FBX"/>
+  </resource>
+  <resource internal="false" id="661b611c-ea3-5d5-757-68a" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="corner1.png">
+   <filename value="corner1.png"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\corner1.png"/>
+  </resource>
+  <resource internal="false" id="661b6122-35e-497-ce7-d7e" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="corner2.png">
+   <filename value="corner2.png"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\corner2.png"/>
+  </resource>
+  <resource internal="false" id="661b6127-ad6-f32-15c-68b" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="corner3.png">
+   <filename value="corner3.png"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\corner3.png"/>
+  </resource>
+  <resource internal="false" id="661b612c-c9c-33e-fa2-dd7" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="corner4.png">
+   <filename value="corner4.png"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\corner4.png"/>
+  </resource>
+  <resource internal="false" id="661e75bb-d6d-3fa-395-2e1" kind="audio" local="true" forceExport="false" rawAssetsExport="false" name="sun.mp3">
+   <filename value="sun.mp3"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\audio\sun.mp3"/>
+  </resource>
+  <resource internal="false" id="661e75dd-bae-e7d-d12-769" kind="audio" local="true" forceExport="false" rawAssetsExport="false" name="mars.mp3">
+   <filename value="mars.mp3"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\audio\mars.mp3"/>
+  </resource>
+  <resource internal="false" id="661e75e6-23b-dde-235-8b9" kind="audio" local="true" forceExport="false" rawAssetsExport="false" name="moon.mp3">
+   <filename value="moon.mp3"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\audio\moon.mp3"/>
+  </resource>
+  <resource internal="false" id="661e75f8-53d-37d-d86-785" kind="audio" local="true" forceExport="false" rawAssetsExport="false" name="saturn.mp3">
+   <filename value="saturn.mp3"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\audio\saturn.mp3"/>
+  </resource>
+  <resource internal="false" id="661e7981-427-1b3-75b-8d8" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="mars.jpg">
+   <filename value="mars.jpg"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\markers\mars.jpg"/>
+  </resource>
+  <resource internal="false" id="661e79d8-419-77e-1e3-971" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="mercury.jpg">
+   <filename value="mercury.jpg"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\markers\mercury.jpg"/>
+  </resource>
+  <resource internal="false" id="661e7e84-a37-934-8f5-973" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="sun.jpg">
+   <filename value="sun.jpg"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\markers\sun.jpg"/>
+  </resource>
+  <resource internal="false" id="661e7e8b-31a-984-874-6f4" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="venus.jpg">
+   <filename value="venus.jpg"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\markers\venus.jpg"/>
+  </resource>
+  <resource internal="false" id="661e7e90-4d7-58e-3c1-c81" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="uranus.jpg">
+   <filename value="uranus.jpg"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\markers\uranus.jpg"/>
+  </resource>
+  <resource internal="false" id="661e7e9c-f4b-8f9-c9c-a1b" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="saturn.jpg">
+   <filename value="saturn.jpg"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\markers\saturn.jpg"/>
+  </resource>
+  <resource internal="false" id="661e7ea3-3b7-e2c-81f-c8a" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="neptune.jpg">
+   <filename value="neptune.jpg"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\markers\neptune.jpg"/>
+  </resource>
+  <resource internal="false" id="661e7eb2-3f2-795-6bd-6d2" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="earth.jpg">
+   <filename value="earth.jpg"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\markers\earth.jpg"/>
+  </resource>
+  <resource internal="false" id="661e7eb9-55c-bcc-c71-fa3" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="jupyter.jpg">
+   <filename value="jupyter.jpg"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\markers\jupyter.jpg"/>
+  </resource>
+  <resource internal="false" id="661e7ebe-6ac-3b9-cf2-333" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="moon.jpg">
+   <filename value="moon.jpg"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\markers\moon.jpg"/>
+  </resource>
+  <resource internal="false" id="661e88ab-eca-7c4-533-6fb" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="108011-misticheskaya-raskraska-planety-solnechnoy-sistemy.jpg">
+   <filename value="108011-misticheskaya-raskraska-planety-solnechnoy-sistemy.jpg"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\markers\108011-misticheskaya-raskraska-planety-solnechnoy-sistemy.jpg"/>
+  </resource>
+  <resource internal="false" id="661e8a94-852-779-86f-9ed" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="art-ogni-kosmos-zvezdy-uzory-tumannost-rossyp-mercanie.jpg">
+   <filename value="art-ogni-kosmos-zvezdy-uzory-tumannost-rossyp-mercanie.jpg"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\art-ogni-kosmos-zvezdy-uzory-tumannost-rossyp-mercanie.jpg"/>
+  </resource>
+  <resource internal="false" id="66222af8-86d-fa8-1fe-5e6" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="Screenshot_1.png">
+   <filename value="Screenshot_1.png"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\Screenshot_1.png"/>
+  </resource>
+  <resource internal="false" id="6622312a-8ce-6f6-38f-df9" kind="image" local="true" forceExport="false" rawAssetsExport="false" name="game.png">
+   <filename value="game.png"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\game.png"/>
+  </resource>
+  <resource internal="false" id="662494d3-f4a-fd4-692-c24" kind="audio" local="true" forceExport="false" rawAssetsExport="false" name="venus.mp3">
+   <filename value="venus.mp3"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\audio\venus.mp3"/>
+  </resource>
+  <resource internal="false" id="662494db-a4c-11d-962-e1d" kind="audio" local="true" forceExport="false" rawAssetsExport="false" name="mercury.mp3">
+   <filename value="mercury.mp3"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\audio\mercury.mp3"/>
+  </resource>
+  <resource internal="false" id="662494e5-165-c1f-393-626" kind="audio" local="true" forceExport="false" rawAssetsExport="false" name="earth.mp3">
+   <filename value="earth.mp3"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\audio\earth.mp3"/>
+  </resource>
+  <resource internal="false" id="662494ee-d28-994-e87-8df" kind="audio" local="true" forceExport="false" rawAssetsExport="false" name="uranus, neptune.mp3">
+   <filename value="uranus, neptune.mp3"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\audio\uranus, neptune.mp3"/>
+  </resource>
+  <resource internal="false" id="662494fe-19a-e29-d79-3a2" kind="audio" local="true" forceExport="false" rawAssetsExport="false" name="jupyter.mp3">
+   <filename value="jupyter.mp3"/>
+   <source value="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\audio\jupyter.mp3"/>
+  </resource>
+  <resource internal="true" id="RussoOne-Regular" kind="font" local="false" forceExport="false" rawAssetsExport="false" name="RussoOne-Regular.ttf">
+   <filename value="RussoOne-Regular.ttf"/>
+   <source value="${STUDIO_RESOURCES_DIR}/fonts/RussoOne-Regular.ttf"/>
+  </resource>
+ </resources>
+ <reactors>
+  <order>
+   <item id="662481c9-79c4-1a8f-1773"/>
+   <item id="6623f54f-c7df-1435-786b"/>
+   <item id="6623ea51-c63a-f8b7-cdfd"/>
+   <item id="66226d71-6d4e-179a-8de5"/>
+   <item id="66225b3d-495a-1bb7-22cb"/>
+   <item id="662259ed-e8f3-89ca-195a"/>
+   <item id="66223635-a4e9-fbcc-7ffe"/>
+   <item id="66222bba-171d-94bb-24fd"/>
+   <item id="661e6cbe-3b67-4b9b-3f59"/>
+   <item id="661e2f7a-23ff-f988-183a"/>
+   <item id="661e2f54-31bd-1475-d9eb"/>
+   <item id="661a947e-cc3e-82f3-cfd3"/>
+   <item id="661a784c-5db6-869f-4541"/>
+   <item id="66195b78-4ebc-a3e7-2368"/>
+   <item id="System"/>
+   <item id="Scene"/>
+  </order>
+  <reactor id="HeadUpDisplay" name="HeadUpDisplay" type="node.hud" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children">
+    <item value="6622373a-f5fe-6126-2d2a"/>
+    <item value="66229b0b-5c57-111a-dfd3"/>
+    <item value="66223226-782f-2af2-6f6c"/>
+    <item value="661b60d6-5523-dc44-3176"/>
+    <item value="661b92c7-6646-3d16-eef4"/>
+    <item value="661b60d7-1443-4e82-abad"/>
+    <item value="661b60d7-8726-4f6e-6d14"/>
+    <item value="661b60d5-9d14-6241-54d3"/>
+    <item value="661a80a0-ab31-2296-d229"/>
+    <item value="661a8016-43f4-9567-747b"/>
+    <item value="661a7c0a-7c72-deca-c66a"/>
+    <item value="661a76a9-be3d-62aa-de3e"/>
+    <item value="661957b8-b4bf-5f89-27b9"/>
+    <item value="661957b6-b98f-9621-e6e7"/>
+    <item value="661957b3-1439-8c58-ee53"/>
+    <item value="66194167-3728-a288-2d41"/>
+    <item value="661955ed-1753-cc44-8aa5"/>
+    <item value="661940c9-5df9-e4db-ec69"/>
+    <item value="661a80d0-edfa-5673-3fde"/>
+    <item value="662272a5-8152-cc5d-2c8c"/>
+   </parameter>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="Scene" name="Scene" type="node.scene" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children">
+    <item value="HeadUpDisplay"/>
+    <item value="661a899a-323e-efe9-7cc4"/>
+    <item value="661deeef-ffb5-d58b-ebf4"/>
+   </parameter>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="System" name="System" type="system" enabled="true">
+   <parameter name="albumName" value="evi_app"/>
+  </reactor>
+  <reactor id="661940c9-5df9-e4db-ec69" name="Menu-Background" type="rect.image" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="layer" value="0.0099"/>
+   <parameter name="rect.position" value="center-center"/>
+   <parameter name="rect.size">
+    <field name="x" value="100.000000%v"/>
+    <field name="y" value="100.000000%v"/>
+    <field name="policy" value="simple"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0.75"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000%v"/>
+    <field name="y" value="0.000000%v"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000%v"/>
+    <field name="right" value="0.000000%v"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="661940d0-6b4-331-f13-b4d"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="66194167-3728-a288-2d41" name="Video" type="rect.video" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="center-center"/>
+   <parameter name="rect.size">
+    <field name="x" value="100.000000%v"/>
+    <field name="y" value="100.000000%v"/>
+    <field name="policy" value="simple"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0.75"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000%v"/>
+    <field name="y" value="0.000000%v"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000%v"/>
+    <field name="right" value="0.000000%v"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="66194c16-851-fda-74f-515"/>
+   <parameter name="volume" value="1"/>
+   <parameter name="playMode" value="once"/>
+  </reactor>
+  <reactor id="661955ed-1753-cc44-8aa5" name="SkipVideo" type="rect.image" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="layer" value="0.02"/>
+   <parameter name="rect.position" value="right-bottom"/>
+   <parameter name="rect.size">
+    <field name="x" value="8.000000%vh"/>
+    <field name="y" value="10.000000%v"/>
+    <field name="policy" value="simple"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000%v"/>
+    <field name="y" value="0.000000%v"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000%v"/>
+    <field name="right" value="0.000000%v"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="66195845-84a-5ca-972-11c"/>
+  </reactor>
+  <reactor id="661957b3-1439-8c58-ee53" name="Menu-Header" type="rect.image" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="center-top"/>
+   <parameter name="rect.size">
+    <field name="x" value="60.000000%vh"/>
+    <field name="y" value="15.000000%v"/>
+    <field name="policy" value="simple"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000%v"/>
+    <field name="y" value="0.000000%v"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000%v"/>
+    <field name="right" value="0.000000%v"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="6619584b-fa9-227-cd6-fab"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="661957b6-b98f-9621-e6e7" name="Menu-Instruction" type="rect.image" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="center-center"/>
+   <parameter name="rect.size">
+    <field name="x" value="40.000000%vh"/>
+    <field name="y" value="15.000000%v"/>
+    <field name="policy" value="simple"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="-20.000000%v"/>
+    <field name="y" value="0.000000%v"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000%v"/>
+    <field name="right" value="0.000000%v"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="6619585a-1a7-8ca-3e3-962"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="661957b8-b4bf-5f89-27b9" name="Menu-AR" type="rect.image" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="center-center"/>
+   <parameter name="rect.size">
+    <field name="x" value="40.000000%vh"/>
+    <field name="y" value="15.000000%v"/>
+    <field name="policy" value="simple"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="20.000000%v"/>
+    <field name="y" value="0.000000%v"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000%v"/>
+    <field name="right" value="0.000000%v"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="66195855-f83-92d-a33-494"/>
+  </reactor>
+  <reactor id="66195b78-4ebc-a3e7-2368" name="Confirmed" type="audio" enabled="true">
+   <parameter name="audioResource" value="66195b86-81f-2e7-d96-997"/>
+   <parameter name="volume" value="1"/>
+   <parameter name="pan" value="0"/>
+   <parameter name="playMode" value="once"/>
+   <parameter name="liveDecoding" value="false"/>
+  </reactor>
+  <reactor id="661a76a9-be3d-62aa-de3e" name="Menu-OFF" type="rect.image" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="right-top"/>
+   <parameter name="rect.size">
+    <field name="x" value="10.000000%vh"/>
+    <field name="y" value="10.000000%v"/>
+    <field name="policy" value="simple"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000%v"/>
+    <field name="y" value="0.000000%v"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000%v"/>
+    <field name="right" value="0.000000%v"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="661b4e2f-3cd-c1f-872-d1f"/>
+  </reactor>
+  <reactor id="661a784c-5db6-869f-4541" name="Main" type="audio" enabled="true">
+   <parameter name="audioResource" value="661a786e-f42-e5d-25c-1b1"/>
+   <parameter name="volume" value="1"/>
+   <parameter name="pan" value="0"/>
+   <parameter name="playMode" value="loop"/>
+   <parameter name="liveDecoding" value="false"/>
+  </reactor>
+  <reactor id="661a7c0a-7c72-deca-c66a" name="Menu-Sound" type="rect.image" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="left-bottom"/>
+   <parameter name="rect.size">
+    <field name="x" value="10.000000%vh"/>
+    <field name="y" value="10.000000%v"/>
+    <field name="policy" value="simple"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000%v"/>
+    <field name="y" value="0.000000%v"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000%v"/>
+    <field name="right" value="0.000000%v"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="661a7c12-916-755-13e-4df"/>
+  </reactor>
+  <reactor id="661a8016-43f4-9567-747b" name="Instruction-text-background" type="rect.image" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000000F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="layer" value="0.03"/>
+   <parameter name="rect.position" value="center-center"/>
+   <parameter name="rect.size">
+    <field name="x" value="150.000000%vh"/>
+    <field name="y" value="90.000000%v"/>
+    <field name="policy" value="simple"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000%v"/>
+    <field name="y" value="0.000000%v"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000%v"/>
+    <field name="right" value="0.000000%v"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="661a803b-6fe-8f8-955-524"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="661a80a0-ab31-2296-d229" name="Return" type="rect.image" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="layer" value="0.03"/>
+   <parameter name="rect.position" value="left-bottom"/>
+   <parameter name="rect.size">
+    <field name="x" value="8.000000%vh"/>
+    <field name="y" value="10.000000%v"/>
+    <field name="policy" value="simple"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000%v"/>
+    <field name="y" value="0.000000%v"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000%v"/>
+    <field name="right" value="0.000000%v"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="661a80ab-c2c-3b8-383-981"/>
+  </reactor>
+  <reactor id="661a80d0-edfa-5673-3fde" name="Instruction-text" type="rect.text" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="layer" value="0.035"/>
+   <parameter name="rect.position" value="center-center"/>
+   <parameter name="rect.size">
+    <field name="x" value="10.000000%vh"/>
+    <field name="y" value="keep-aspect"/>
+    <field name="policy" value="simple"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000%v"/>
+    <field name="y" value="0.000000%v"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000%v"/>
+    <field name="right" value="0.000000%v"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="text.font_id" value="RussoOne-Regular"/>
+   <parameter name="text.font_size" value="3.000000%v"/>
+   <parameter name="text.color">
+    <field name="red" value="0"/>
+    <field name="green" value="1"/>
+    <field name="blue" value="1"/>
+    <field name="alpha" value="1"/>
+   </parameter>
+   <parameter name="text.align" value="center-center"/>
+   <parameter name="text.auto_wrap" value="false"/>
+   <parameter name="text.line_spacing" value="0.15"/>
+   <parameter name="text.value" value="По кнопке &quot;К планетам&quot; осуществляется переход к камере телефона.&#10;&#10;При наведении на маркер планеты, появляется планета. &#10;&#10;Одно нажатие - планета начинает вращаться. &#10;&#10;Два нажатия - появляется информация о планете. &#10;&#10;При наведении на маркер Солнечной системы - &#10;&#10;появляется Солнечная Система с пропорциональными размерами планет.&#10;&#10;Можно проверить свои знания по знанию планет, нажав на кнопку &quot;Геймпада&quot;.&#10;&#10;Музыку можно отключить, нажав на кнопку &quot;Ноты&quot;.&#10;&#10;Выход из приложения осуществляется по нажатию кнопки &quot;Выход&quot;."/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="661a899a-323e-efe9-7cc4" name="Rect" type="node.rect" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children">
+    <item value="661a8a1b-8a7c-8a4d-ae9c"/>
+    <item value="661a8a1a-19ad-ea46-835f"/>
+    <item value="661a8a1b-4d6c-2298-baaa"/>
+    <item value="661a8a0a-8833-de93-88a3"/>
+    <item value="661a8a1c-49a1-bb58-56a8"/>
+    <item value="661a8a1c-2984-a189-45b9"/>
+    <item value="661a8a1d-483e-4e84-5d16"/>
+    <item value="661a8a1e-5c2f-2371-7c9a"/>
+    <item value="661b4d7f-aaab-b81c-534e"/>
+    <item value="661a8a1e-93d3-c4ec-aeb5"/>
+    <item value="661e8718-9f3a-d215-48de"/>
+   </parameter>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="center-center"/>
+   <parameter name="rect.size">
+    <field name="x" value="100.000000%vh"/>
+    <field name="y" value="keep-aspect"/>
+    <field name="policy" value="simple"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000%v"/>
+    <field name="y" value="0.000000%v"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000%v"/>
+    <field name="right" value="0.000000%v"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="661a8a0a-8833-de93-88a3" name="Earth-marker" type="node.marker" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children">
+    <item value="661a8a0d-1d98-f78f-9874"/>
+   </parameter>
+   <parameter name="trans">
+    <field name="x" value="1.4439690961333"/>
+    <field name="y" value="-0.47877388992631"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="markerType" value="image"/>
+   <parameter name="pattern" value="661e7eb2-3f2-795-6bd-6d2"/>
+   <parameter name="gridSize">
+    <field name="x" value="10"/>
+    <field name="y" value="4"/>
+   </parameter>
+   <parameter name="markerPhysSize" value="0.1"/>
+   <parameter name="enhancedCloseupTracking" value="true"/>
+   <parameter name="enabled" value="true"/>
+   <parameter name="autoShow" value="true"/>
+   <parameter name="autoHide" value="true"/>
+  </reactor>
+  <reactor id="661a8a0d-1d98-f78f-9874" name="Earth" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.07"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.042"/>
+    <field name="y" value="0.042"/>
+    <field name="z" value="0.042"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b5336-9a1-12e-653-797"/>
+  </reactor>
+  <reactor id="661a8a1a-19ad-ea46-835f" name="Moon-marker" type="node.marker" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children">
+    <item value="661a8a1a-7d5c-19db-af7d"/>
+   </parameter>
+   <parameter name="trans">
+    <field name="x" value="-0.11084054821991"/>
+    <field name="y" value="-0.88038078593095"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="markerType" value="image"/>
+   <parameter name="pattern" value="661e7ebe-6ac-3b9-cf2-333"/>
+   <parameter name="gridSize">
+    <field name="x" value="10"/>
+    <field name="y" value="10"/>
+   </parameter>
+   <parameter name="markerPhysSize" value="0.1"/>
+   <parameter name="enhancedCloseupTracking" value="true"/>
+   <parameter name="enabled" value="true"/>
+   <parameter name="autoShow" value="true"/>
+   <parameter name="autoHide" value="true"/>
+  </reactor>
+  <reactor id="661a8a1a-7d5c-19db-af7d" name="Moon" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.06"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.0004"/>
+    <field name="y" value="0.0004"/>
+    <field name="z" value="0.0004"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b5286-41e-526-42e-846"/>
+  </reactor>
+  <reactor id="661a8a1b-1d75-73e3-2ab3" name="Mars" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.07"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.08"/>
+    <field name="y" value="0.08"/>
+    <field name="z" value="0.08"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b52bc-83e-de2-cd4-69d"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="661a8a1b-4d6c-2298-baaa" name="Jupyter-marker" type="node.marker" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children">
+    <item value="661a8a1b-be4f-af7c-7966"/>
+   </parameter>
+   <parameter name="trans">
+    <field name="x" value="-0.98465294259502"/>
+    <field name="y" value="-0.77222844212578"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="markerType" value="image"/>
+   <parameter name="pattern" value="661e7eb9-55c-bcc-c71-fa3"/>
+   <parameter name="gridSize">
+    <field name="x" value="10"/>
+    <field name="y" value="10"/>
+   </parameter>
+   <parameter name="markerPhysSize" value="0.10206886041017"/>
+   <parameter name="enhancedCloseupTracking" value="true"/>
+   <parameter name="enabled" value="true"/>
+   <parameter name="autoShow" value="true"/>
+   <parameter name="autoHide" value="true"/>
+  </reactor>
+  <reactor id="661a8a1b-8a7c-8a4d-ae9c" name="Mars-marker" type="node.marker" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children">
+    <item value="661a8a1b-1d75-73e3-2ab3"/>
+   </parameter>
+   <parameter name="trans">
+    <field name="x" value="0.97176350505646"/>
+    <field name="y" value="-0.90837545623414"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="markerType" value="image"/>
+   <parameter name="pattern" value="661e7981-427-1b3-75b-8d8"/>
+   <parameter name="gridSize">
+    <field name="x" value="10"/>
+    <field name="y" value="10"/>
+   </parameter>
+   <parameter name="markerPhysSize" value="0.1"/>
+   <parameter name="enhancedCloseupTracking" value="true"/>
+   <parameter name="enabled" value="true"/>
+   <parameter name="autoShow" value="true"/>
+   <parameter name="autoHide" value="true"/>
+  </reactor>
+  <reactor id="661a8a1b-be4f-af7c-7966" name="Jupyter" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.06"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.0035"/>
+    <field name="y" value="0.0035"/>
+    <field name="z" value="0.0035"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b51b1-1d7-7cc-143-a71"/>
+  </reactor>
+  <reactor id="661a8a1c-2984-a189-45b9" name="Neptune-marker" type="node.marker" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children">
+    <item value="661a8a1c-81a2-7bb4-5393"/>
+   </parameter>
+   <parameter name="trans">
+    <field name="x" value="0.4258821268786"/>
+    <field name="y" value="0.4383507822561"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="markerType" value="image"/>
+   <parameter name="pattern" value="661e7ea3-3b7-e2c-81f-c8a"/>
+   <parameter name="gridSize">
+    <field name="x" value="10"/>
+    <field name="y" value="10"/>
+   </parameter>
+   <parameter name="markerPhysSize" value="0.1"/>
+   <parameter name="enhancedCloseupTracking" value="true"/>
+   <parameter name="enabled" value="true"/>
+   <parameter name="autoShow" value="true"/>
+   <parameter name="autoHide" value="true"/>
+  </reactor>
+  <reactor id="661a8a1c-49a1-bb58-56a8" name="Mercury-marker" type="node.marker" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children">
+    <item value="661a8a1c-7b59-fcfb-8a6f"/>
+   </parameter>
+   <parameter name="trans">
+    <field name="x" value="-1.0949966180959"/>
+    <field name="y" value="0.15000487816206"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="markerType" value="image"/>
+   <parameter name="pattern" value="661e79d8-419-77e-1e3-971"/>
+   <parameter name="gridSize">
+    <field name="x" value="4"/>
+    <field name="y" value="4"/>
+   </parameter>
+   <parameter name="markerPhysSize" value="0.1"/>
+   <parameter name="enhancedCloseupTracking" value="true"/>
+   <parameter name="enabled" value="true"/>
+   <parameter name="autoShow" value="true"/>
+   <parameter name="autoHide" value="true"/>
+  </reactor>
+  <reactor id="661a8a1c-7b59-fcfb-8a6f" name="Mercury" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.085"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.15"/>
+    <field name="y" value="0.15"/>
+    <field name="z" value="0.15"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b5394-df3-41f-6c8-d16"/>
+  </reactor>
+  <reactor id="661a8a1c-81a2-7bb4-5393" name="Neptune" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.073"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.0099"/>
+    <field name="y" value="0.0099"/>
+    <field name="z" value="0.0099"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b53db-2c4-16d-8f1-351"/>
+  </reactor>
+  <reactor id="661a8a1d-483e-4e84-5d16" name="Saturn-marker" type="node.marker" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children">
+    <item value="661a8a1d-5992-729f-3aff"/>
+   </parameter>
+   <parameter name="trans">
+    <field name="x" value="0.64977956445001"/>
+    <field name="y" value="-0.089678379424129"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="markerType" value="image"/>
+   <parameter name="pattern" value="661e7e9c-f4b-8f9-c9c-a1b"/>
+   <parameter name="gridSize">
+    <field name="x" value="10"/>
+    <field name="y" value="10"/>
+   </parameter>
+   <parameter name="markerPhysSize" value="0.1"/>
+   <parameter name="enhancedCloseupTracking" value="true"/>
+   <parameter name="enabled" value="true"/>
+   <parameter name="autoShow" value="true"/>
+   <parameter name="autoHide" value="true"/>
+  </reactor>
+  <reactor id="661a8a1d-5992-729f-3aff" name="Saturn" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.07"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.004"/>
+    <field name="y" value="0.004"/>
+    <field name="z" value="0.004"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b542b-e42-3e6-dea-a5b"/>
+  </reactor>
+  <reactor id="661a8a1e-5c2f-2371-7c9a" name="Uranus-marker" type="node.marker" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children">
+    <item value="661a8a1e-823a-49c5-1454"/>
+   </parameter>
+   <parameter name="trans">
+    <field name="x" value="-0.62988570656241"/>
+    <field name="y" value="0.83568500054856"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="markerType" value="image"/>
+   <parameter name="pattern" value="661e7e90-4d7-58e-3c1-c81"/>
+   <parameter name="gridSize">
+    <field name="x" value="10"/>
+    <field name="y" value="10"/>
+   </parameter>
+   <parameter name="markerPhysSize" value="0.1"/>
+   <parameter name="enhancedCloseupTracking" value="true"/>
+   <parameter name="enabled" value="true"/>
+   <parameter name="autoShow" value="true"/>
+   <parameter name="autoHide" value="true"/>
+  </reactor>
+  <reactor id="661a8a1e-823a-49c5-1454" name="Uranus" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.07"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.043"/>
+    <field name="y" value="0.043"/>
+    <field name="z" value="0.043"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b5726-c4c-47b-83d-e52"/>
+  </reactor>
+  <reactor id="661a8a1e-93d3-c4ec-aeb5" name="Sun-marker" type="node.marker" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children">
+    <item value="661a8a1e-d27e-d487-153a"/>
+   </parameter>
+   <parameter name="trans">
+    <field name="x" value="0.20667871686489"/>
+    <field name="y" value="1.0704801204712"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="markerType" value="image"/>
+   <parameter name="pattern" value="661e7e84-a37-934-8f5-973"/>
+   <parameter name="gridSize">
+    <field name="x" value="4"/>
+    <field name="y" value="4"/>
+   </parameter>
+   <parameter name="markerPhysSize" value="0.1"/>
+   <parameter name="enhancedCloseupTracking" value="true"/>
+   <parameter name="enabled" value="true"/>
+   <parameter name="autoShow" value="true"/>
+   <parameter name="autoHide" value="true"/>
+  </reactor>
+  <reactor id="661a8a1e-d27e-d487-153a" name="Sun" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.083"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.0016"/>
+    <field name="y" value="0.0016"/>
+    <field name="z" value="0.0016"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b5764-5ed-595-886-7be"/>
+  </reactor>
+  <reactor id="661a947e-cc3e-82f3-cfd3" name="Counter" type="counter" enabled="true">
+   <parameter name="initialValue" value="0"/>
+  </reactor>
+  <reactor id="661b4d7f-aaab-b81c-534e" name="Venus-marker" type="node.marker" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children">
+    <item value="661b4d7f-af11-5652-b3fb"/>
+   </parameter>
+   <parameter name="trans">
+    <field name="x" value="0.89758214557822"/>
+    <field name="y" value="0.80483775632284"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="markerType" value="image"/>
+   <parameter name="pattern" value="661e7e8b-31a-984-874-6f4"/>
+   <parameter name="gridSize">
+    <field name="x" value="4"/>
+    <field name="y" value="4"/>
+   </parameter>
+   <parameter name="markerPhysSize" value="0.1"/>
+   <parameter name="enhancedCloseupTracking" value="true"/>
+   <parameter name="enabled" value="true"/>
+   <parameter name="autoShow" value="true"/>
+   <parameter name="autoHide" value="true"/>
+  </reactor>
+  <reactor id="661b4d7f-af11-5652-b3fb" name="Venus" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.06"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.04"/>
+    <field name="y" value="0.04"/>
+    <field name="z" value="0.04"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b56f8-f64-594-c33-1e1"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="661b60d5-9d14-6241-54d3" name="Corner1" type="rect.image" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="right-top"/>
+   <parameter name="rect.size">
+    <field name="x" value="10.000000%vh"/>
+    <field name="y" value="10.000000%v"/>
+    <field name="policy" value="simple"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="-57.000000%vh"/>
+    <field name="y" value="0.000000%v"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000%v"/>
+    <field name="right" value="0.000000%v"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="661b611c-ea3-5d5-757-68a"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="661b60d6-5523-dc44-3176" name="Menu-Game" type="rect.image" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="left-top"/>
+   <parameter name="rect.size">
+    <field name="x" value="10.000000%vh"/>
+    <field name="y" value="10.000000%v"/>
+    <field name="policy" value="simple"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000%v"/>
+    <field name="y" value="0.000000%v"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000%v"/>
+    <field name="right" value="0.000000%v"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="6622312a-8ce-6f6-38f-df9"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="661b60d7-1443-4e82-abad" name="Corner4" type="rect.image" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="right-bottom"/>
+   <parameter name="rect.size">
+    <field name="x" value="10.000000%vh"/>
+    <field name="y" value="10.000000%v"/>
+    <field name="policy" value="simple"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="-57.000000%vh"/>
+    <field name="y" value="0.000000%v"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000%v"/>
+    <field name="right" value="0.000000%v"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="661b612c-c9c-33e-fa2-dd7"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="661b60d7-8726-4f6e-6d14" name="Corner3" type="rect.image" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="right-bottom"/>
+   <parameter name="rect.size">
+    <field name="x" value="10.000000%vh"/>
+    <field name="y" value="10.000000%v"/>
+    <field name="policy" value="simple"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000%v"/>
+    <field name="y" value="0.000000%v"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000%v"/>
+    <field name="right" value="0.000000%v"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="661b6127-ad6-f32-15c-68b"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="661b92c7-6646-3d16-eef4" name="AR-Text-planet" type="rect.text" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="layer" value="0.05"/>
+   <parameter name="rect.position" value="right-center"/>
+   <parameter name="rect.size">
+    <field name="x" value="60.000000%vh"/>
+    <field name="y" value="keep-aspect"/>
+    <field name="policy" value="simple"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0.5"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="-1.000000%v"/>
+    <field name="y" value="0.000000%v"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000%v"/>
+    <field name="right" value="0.000000%v"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="text.font_id" value="RussoOne-Regular"/>
+   <parameter name="text.font_size" value="3.800000%v"/>
+   <parameter name="text.color">
+    <field name="red" value="0"/>
+    <field name="green" value="1"/>
+    <field name="blue" value="1"/>
+    <field name="alpha" value="1"/>
+   </parameter>
+   <parameter name="text.align" value="center-center"/>
+   <parameter name="text.auto_wrap" value="true"/>
+   <parameter name="text.line_spacing" value="0.15"/>
+   <parameter name="text.value" value=""/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="661deeef-ffb5-d58b-ebf4" name="Book" type="node.marker" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="-0.41644391518692"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="markerType" value="image"/>
+   <parameter name="pattern" value="66222af8-86d-fa8-1fe-5e6"/>
+   <parameter name="gridSize">
+    <field name="x" value="10"/>
+    <field name="y" value="10"/>
+   </parameter>
+   <parameter name="markerPhysSize" value="0.1"/>
+   <parameter name="enhancedCloseupTracking" value="true"/>
+   <parameter name="enabled" value="true"/>
+   <parameter name="autoShow" value="true"/>
+   <parameter name="autoHide" value="true"/>
+  </reactor>
+  <reactor id="661e2f54-31bd-1475-d9eb" name="Timer" type="timer" enabled="true"/>
+  <reactor id="661e2f7a-23ff-f988-183a" name="Rotate" type="counter" enabled="true">
+   <parameter name="initialValue" value="0"/>
+  </reactor>
+  <reactor id="661e6cbe-3b67-4b9b-3f59" name="Planet" type="audio" enabled="true">
+   <parameter name="audioResource" value="661a786e-f42-e5d-25c-1b1"/>
+   <parameter name="volume" value="0.5"/>
+   <parameter name="pan" value="0"/>
+   <parameter name="playMode" value="once"/>
+   <parameter name="liveDecoding" value="false"/>
+  </reactor>
+  <reactor id="661e8718-9f3a-d215-48de" name="SS-marker" type="node.marker" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children">
+    <item value="661e8c1e-6331-258c-3ad8"/>
+    <item value="661e8c1e-d996-88a1-c661"/>
+    <item value="661e8c1d-341e-9ebb-94a3"/>
+    <item value="661e8c1d-3d7d-5bad-3dcb"/>
+    <item value="661e8c1c-f967-dd12-d7c8"/>
+    <item value="661e8c1c-df4c-bad3-fa9c"/>
+    <item value="661e8c1b-723d-f49f-b214"/>
+    <item value="661e8c19-3255-7554-f429"/>
+    <item value="661e8c12-a5ac-b3c2-9951"/>
+    <item value="661e8ad4-ce4b-86c6-2162"/>
+    <item value="661e8c08-448e-433a-d317"/>
+   </parameter>
+   <parameter name="trans">
+    <field name="x" value="2.2806606561519"/>
+    <field name="y" value="2.1546531002247"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="1"/>
+    <field name="y" value="1"/>
+    <field name="z" value="1"/>
+   </parameter>
+   <parameter name="markerType" value="dashdot"/>
+   <parameter name="pattern" value="661e88ab-eca-7c4-533-6fb"/>
+   <parameter name="gridSize">
+    <field name="x" value="4"/>
+    <field name="y" value="4"/>
+   </parameter>
+   <parameter name="markerPhysSize" value="0.1"/>
+   <parameter name="enhancedCloseupTracking" value="true"/>
+   <parameter name="enabled" value="true"/>
+   <parameter name="autoShow" value="true"/>
+   <parameter name="autoHide" value="true"/>
+  </reactor>
+  <reactor id="661e8a88-6cc3-55ce-4ec7" name="AR-background" type="rect.image" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="layer" value="0.0099"/>
+   <parameter name="rect.position" value="center-center"/>
+   <parameter name="rect.size">
+    <field name="x" value="100.000000%v"/>
+    <field name="y" value="100.000000%v"/>
+    <field name="policy" value="simple"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0.75"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000%v"/>
+    <field name="y" value="0.000000%v"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000%v"/>
+    <field name="right" value="0.000000%v"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="661e8a94-852-779-86f-9ed"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="661e8ad4-ce4b-86c6-2162" name="TransformNode" type="node.transform" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children">
+    <item value="661e8a88-6cc3-55ce-4ec7"/>
+   </parameter>
+   <parameter name="trans">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.94210016220418"/>
+    <field name="y" value="0.94210016220418"/>
+    <field name="z" value="0.94210016220418"/>
+   </parameter>
+  </reactor>
+  <reactor id="661e8c08-448e-433a-d317" name="AR-Sun" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="-0.219"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.06"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.0035"/>
+    <field name="y" value="0.0035"/>
+    <field name="z" value="0.0035"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b5764-5ed-595-886-7be"/>
+  </reactor>
+  <reactor id="661e8c12-a5ac-b3c2-9951" name="AR-Mercury" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="-0.08"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.06"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.013"/>
+    <field name="y" value="0.013"/>
+    <field name="z" value="0.013"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b5394-df3-41f-6c8-d16"/>
+  </reactor>
+  <reactor id="661e8c19-3255-7554-f429" name="AR-Venus" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="-0.055"/>
+    <field name="y" value="0.0003"/>
+    <field name="z" value="0.06"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.0075"/>
+    <field name="y" value="0.0075"/>
+    <field name="z" value="0.0075"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b56f8-f64-594-c33-1e1"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="661e8c1b-723d-f49f-b214" name="AR-Earth" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="-0.026"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.06"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.0075"/>
+    <field name="y" value="0.0075"/>
+    <field name="z" value="0.0075"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b5336-9a1-12e-653-797"/>
+  </reactor>
+  <reactor id="661e8c1c-df4c-bad3-fa9c" name="AR-Moon" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="-0.022"/>
+    <field name="y" value="0.014"/>
+    <field name="z" value="0.059"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="90"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="3e-05"/>
+    <field name="y" value="3e-05"/>
+    <field name="z" value="3e-05"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b5286-41e-526-42e-846"/>
+  </reactor>
+  <reactor id="661e8c1c-f967-dd12-d7c8" name="AR-Mars" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="-0.0042"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.06"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.0065"/>
+    <field name="y" value="0.0065"/>
+    <field name="z" value="0.0065"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b52bc-83e-de2-cd4-69d"/>
+  </reactor>
+  <reactor id="661e8c1d-341e-9ebb-94a3" name="AR-Saturn" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0.07"/>
+    <field name="y" value="0.0009"/>
+    <field name="z" value="0.06"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.0012"/>
+    <field name="y" value="0.0012"/>
+    <field name="z" value="0.0012"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b542b-e42-3e6-dea-a5b"/>
+  </reactor>
+  <reactor id="661e8c1d-3d7d-5bad-3dcb" name="AR-Jupyter" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0.028"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.0615"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.0016"/>
+    <field name="y" value="0.0016"/>
+    <field name="z" value="0.0016"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b51b1-1d7-7cc-143-a71"/>
+  </reactor>
+  <reactor id="661e8c1e-6331-258c-3ad8" name="AR-Neptune" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0.13"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.06"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="1"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.002"/>
+    <field name="y" value="0.002"/>
+    <field name="z" value="0.002"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b53db-2c4-16d-8f1-351"/>
+  </reactor>
+  <reactor id="661e8c1e-d996-88a1-c661" name="AR-Uranus" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0.10243922727462"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.06"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.01"/>
+    <field name="y" value="0.01"/>
+    <field name="z" value="0.01"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b5726-c4c-47b-83d-e52"/>
+  </reactor>
+  <reactor id="66222bba-171d-94bb-24fd" name="Sound-changer" type="counter" enabled="true">
+   <parameter name="initialValue" value="0"/>
+  </reactor>
+  <reactor id="66223226-782f-2af2-6f6c" name="Game-Rect" type="node.rect" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children">
+    <item value="662271b3-945d-3beb-4e2d"/>
+    <item value="662235f9-388a-9886-88d2"/>
+    <item value="662232c7-81ea-ba5e-2a3f"/>
+    <item value="662232c2-ad33-dcbd-d57f"/>
+    <item value="662232bc-8f29-7c1b-cf1d"/>
+    <item value="662232b9-fb47-e41d-b7bf"/>
+    <item value="66223295-49ed-46a7-aeee"/>
+    <item value="662232d0-1ed7-1519-8279"/>
+    <item value="662232d4-5767-53e2-bb44"/>
+    <item value="662232d9-a814-91c8-9399"/>
+    <item value="662232e1-46db-365b-b183"/>
+   </parameter>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="center-center"/>
+   <parameter name="rect.size">
+    <field name="x" value="100.000000%v"/>
+    <field name="y" value="100.000000%v"/>
+    <field name="policy" value="simple"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000%v"/>
+    <field name="y" value="0.000000%v"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000%v"/>
+    <field name="right" value="0.000000%v"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+  </reactor>
+  <reactor id="66223295-49ed-46a7-aeee" name="Game-Neptune" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0.7"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.06"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="1"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.01913580246915"/>
+    <field name="y" value="0.01913580246915"/>
+    <field name="z" value="0.01913580246915"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b53db-2c4-16d-8f1-351"/>
+  </reactor>
+  <reactor id="662232b9-fb47-e41d-b7bf" name="Game-Uranus" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0.5"/>
+    <field name="y" value="0.18"/>
+    <field name="z" value="0.06"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.081254554833131"/>
+    <field name="y" value="0.081254554833131"/>
+    <field name="z" value="0.081254554833131"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b5726-c4c-47b-83d-e52"/>
+  </reactor>
+  <reactor id="662232bc-8f29-7c1b-cf1d" name="Game-Saturn" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0.4"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.06"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.0073678987164072"/>
+    <field name="y" value="0.0073678987164072"/>
+    <field name="z" value="0.0073678987164072"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b542b-e42-3e6-dea-a5b"/>
+  </reactor>
+  <reactor id="662232c2-ad33-dcbd-d57f" name="Game-Jupyter" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0.25"/>
+    <field name="y" value="0.18"/>
+    <field name="z" value="0.06"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.0058683177645043"/>
+    <field name="y" value="0.0058683177645043"/>
+    <field name="z" value="0.0058683177645043"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b51b1-1d7-7cc-143-a71"/>
+  </reactor>
+  <reactor id="662232c7-81ea-ba5e-2a3f" name="Game-Mars" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="0.1"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.06"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.13264329604393"/>
+    <field name="y" value="0.13264329604393"/>
+    <field name="z" value="0.13264329604393"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b52bc-83e-de2-cd4-69d"/>
+  </reactor>
+  <reactor id="662232d0-1ed7-1519-8279" name="Game-Earth" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="-0.2"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.06"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.075422525317154"/>
+    <field name="y" value="0.075422525317154"/>
+    <field name="z" value="0.075422525317154"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b5336-9a1-12e-653-797"/>
+  </reactor>
+  <reactor id="662232d4-5767-53e2-bb44" name="Game-Venus" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="-0.35"/>
+    <field name="y" value="0.18"/>
+    <field name="z" value="0.06"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.08"/>
+    <field name="y" value="0.08"/>
+    <field name="z" value="0.08"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b56f8-f64-594-c33-1e1"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="662232d9-a814-91c8-9399" name="Game-Mercury" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="-0.5"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0.06"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.28"/>
+    <field name="y" value="0.28"/>
+    <field name="z" value="0.28"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b5394-df3-41f-6c8-d16"/>
+  </reactor>
+  <reactor id="662232e1-46db-365b-b183" name="Game-Sun" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="-0.65"/>
+    <field name="y" value="0.18"/>
+    <field name="z" value="0.06"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.003"/>
+    <field name="y" value="0.003"/>
+    <field name="z" value="0.003"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b5764-5ed-595-886-7be"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="662235f9-388a-9886-88d2" name="Game-question" type="rect.text" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="layer" value="0.05"/>
+   <parameter name="rect.position" value="center-top"/>
+   <parameter name="rect.size">
+    <field name="x" value="60.000000%vh"/>
+    <field name="y" value="keep-aspect"/>
+    <field name="policy" value="simple"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0.5"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="-2.000000%v"/>
+    <field name="y" value="0.000000%v"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000%v"/>
+    <field name="right" value="0.000000%v"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="text.font_id" value="RussoOne-Regular"/>
+   <parameter name="text.font_size" value="3.800000%v"/>
+   <parameter name="text.color">
+    <field name="red" value="0"/>
+    <field name="green" value="1"/>
+    <field name="blue" value="1"/>
+    <field name="alpha" value="1"/>
+   </parameter>
+   <parameter name="text.align" value="center-center"/>
+   <parameter name="text.auto_wrap" value="true"/>
+   <parameter name="text.line_spacing" value="0.15"/>
+   <parameter name="text.value" value=""/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="66223635-a4e9-fbcc-7ffe" name="Game-random" type="counter" enabled="true">
+   <parameter name="initialValue" value="0"/>
+  </reactor>
+  <reactor id="6622373a-f5fe-6126-2d2a" name="Game-background" type="rect.image" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="layer" value="0.0299"/>
+   <parameter name="rect.position" value="center-center"/>
+   <parameter name="rect.size">
+    <field name="x" value="200.000000%v"/>
+    <field name="y" value="200.000000%v"/>
+    <field name="policy" value="simple"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0.75"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000%v"/>
+    <field name="y" value="0.000000%v"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000%v"/>
+    <field name="right" value="0.000000%v"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="661e8a94-852-779-86f-9ed"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="662259ed-e8f3-89ca-195a" name="Game-questions" type="counter" enabled="true">
+   <parameter name="initialValue" value="0"/>
+  </reactor>
+  <reactor id="66225b3d-495a-1bb7-22cb" name="Game-user-answer" type="counter" enabled="true">
+   <parameter name="initialValue" value="0"/>
+  </reactor>
+  <reactor id="66226d71-6d4e-179a-8de5" name="Game-count" type="counter" enabled="true">
+   <parameter name="initialValue" value="0"/>
+  </reactor>
+  <reactor id="662271b3-945d-3beb-4e2d" name="Game-Moon" type="node.model" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="trans">
+    <field name="x" value="-0.05"/>
+    <field name="y" value="0.18"/>
+    <field name="z" value="0.06"/>
+   </parameter>
+   <parameter name="rotate">
+    <field name="x" value="0"/>
+    <field name="y" value="0"/>
+    <field name="z" value="0"/>
+   </parameter>
+   <parameter name="scale">
+    <field name="x" value="0.001"/>
+    <field name="y" value="0.001"/>
+    <field name="z" value="0.001"/>
+   </parameter>
+   <parameter name="kdTrees" value="auto"/>
+   <parameter name="rig" value="auto"/>
+   <parameter name="morph" value="auto"/>
+   <parameter name="gpuInstancing" value="auto"/>
+   <parameter name="gpuInstancesMinCount" value="50"/>
+   <parameter name="model" value="661b5286-41e-526-42e-846"/>
+  </reactor>
+  <reactor id="662272a5-8152-cc5d-2c8c" name="Game-text" type="rect.text" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="layer" value="0.5"/>
+   <parameter name="rect.position" value="center-center"/>
+   <parameter name="rect.size">
+    <field name="x" value="100.000000%vh"/>
+    <field name="y" value="keep-aspect"/>
+    <field name="policy" value="simple"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0.5"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000%v"/>
+    <field name="y" value="0.000000%v"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000%v"/>
+    <field name="right" value="0.000000%v"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="text.font_id" value="RussoOne-Regular"/>
+   <parameter name="text.font_size" value="3.000000%v"/>
+   <parameter name="text.color">
+    <field name="red" value="0"/>
+    <field name="green" value="1"/>
+    <field name="blue" value="1"/>
+    <field name="alpha" value="1"/>
+   </parameter>
+   <parameter name="text.align" value="center-center"/>
+   <parameter name="text.auto_wrap" value="false"/>
+   <parameter name="text.line_spacing" value="0.15"/>
+   <parameter name="text.value" value="Всего вопросов - 10&#10;Вы ответили правильно на "/>
+  </reactor>
+  <reactor id="66229b0b-5c57-111a-dfd3" name="Corner2" type="rect.image" enabled="true">
+   <parameter name="nodeMask">
+    <field name="mask" value="0x0000001F"/>
+    <field name="unchangedBits" value="0x00000000"/>
+   </parameter>
+   <parameter name="children"/>
+   <parameter name="layer" value="0.01"/>
+   <parameter name="rect.position" value="right-top"/>
+   <parameter name="rect.size">
+    <field name="x" value="10.000000%vh"/>
+    <field name="y" value="10.000000%v"/>
+    <field name="policy" value="simple"/>
+   </parameter>
+   <parameter name="rect.color">
+    <field name="red" value="0"/>
+    <field name="green" value="0"/>
+    <field name="blue" value="0"/>
+    <field name="alpha" value="0"/>
+   </parameter>
+   <parameter name="rect.shift">
+    <field name="x" value="0.000000%v"/>
+    <field name="y" value="0.000000%v"/>
+   </parameter>
+   <parameter name="rect.padding">
+    <field name="top" value="0.000000%v"/>
+    <field name="right" value="0.000000%v"/>
+    <field name="bottom" value="keep-aspect"/>
+    <field name="left" value="keep-aspect"/>
+   </parameter>
+   <parameter name="rect.scalePolicy" value="inherit"/>
+   <parameter name="image.resourceId" value="661b6122-35e-497-ce7-d7e"/>
+   <view expanded="true"/>
+  </reactor>
+  <reactor id="6623ea51-c63a-f8b7-cdfd" name="Game-logic1" type="counter" enabled="true">
+   <parameter name="initialValue" value="0"/>
+  </reactor>
+  <reactor id="6623f54f-c7df-1435-786b" name="Game-logic2" type="counter" enabled="true">
+   <parameter name="initialValue" value="0"/>
+  </reactor>
+  <reactor id="662481c9-79c4-1a8f-1773" name="Game-logic3" type="counter" enabled="true">
+   <parameter name="initialValue" value="0"/>
+  </reactor>
+ </reactors>
+ <exportParameters last="apk">
+  <parameters format="apk" filename="C:/Users/sudlenia/Desktop/EV Tool Box/Project/Coquelicot_Onion.apk" appName="Солнечная система" appId="Coquelicot.Onion" arch="" version="1.0" build="1" configurationFile="" appIconPath="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\app.png" loadingImagePath="C:\Users\sudlenia\Desktop\EV Tool Box\Project\resources\logo.png" category="" copyright="" supportedOrientations="6" usageHardwareCamera="optional" usageARCore="optional" gradleOpt="" selectedPresetId="general" abis="armeabi-v7a" targetApi="33">
+   <presets>
+    <preset id="user" name="User Preset">
+     <files>
+      <file name="AndroidManifest.xml" path="${ANDROID_DATA_DIR}/AndroidManifest.xml.in"/>
+      <file name="build.gradle" path="${ANDROID_DATA_DIR}/build.gradle.in"/>
+      <file name="gradle.properties" path="${ANDROID_DATA_DIR}/gradle.properties.in"/>
+      <file name="local.properties" path="${ANDROID_DATA_DIR}/local.properties.in"/>
+     </files>
+    </preset>
+   </presets>
+  </parameters>
+  <parameters format="exe" filename="C:/Users/sudlenia/Desktop/EV Tool Box/Project/Coquelicot_Onion.exe" appName="Coquelicot_Onion - EVI Windows App" appId="Coquelicot.Onion" arch="x64" version="1.0" build="1" configurationFile="" appIconPath="C:/Program Files/EligoVision Toolbox 3.4.12 Trial/studio_data//AppIcon.ico" loadingImagePath="C:/Program Files/EligoVision Toolbox 3.4.12 Trial/studio_data//LaunchImage.png" category="" copyright="" supportedOrientations="1" frameMode="window" frameSize.width="1280" frameSize.height="720" frameShift.x="0" frameShift.y="0" startOnLastDisplay="false" noborder="false" alwaysOnTop="false" createInstaller="false" frameSize.maximize="false" frameSize.ignoreWindowDecoration="true" frameShift.centering="true" runAfterExport="false" targetPlatform="1"/>
+ </exportParameters>
+ <workspace>
+  <preview platform="1"/>
+ </workspace>
+</Project>
